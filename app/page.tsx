@@ -11,6 +11,7 @@ import Reviews from "@/components/Reviews";
 import Location from "@/components/Location";
 import FAQ from "@/components/FAQ";
 import BookingCTA from "@/components/BookingCTA";
+import BookingForm from "@/components/BookingForm";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <Location lang={lang} />
       <FAQ lang={lang} />
       <BookingCTA lang={lang} />
+      <BookingForm lang={lang} />
       <Footer lang={lang} />
     </main>
   );
